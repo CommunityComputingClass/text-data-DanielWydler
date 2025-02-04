@@ -1,6 +1,3 @@
-function preload(){
-  myFont = loadFont("StretchPro.otf")
-}
 function setup() {
   createCanvas(400, 400);
 }
@@ -9,8 +6,9 @@ function draw() {
   background("blue");
   fill("red")
   noStroke (0)
-  text("Hello I love you pooki bear", 100, 150);
   textSize (20)
+  text("Hello I love you pooki bear", 100, 150);
+  
   fill("pink")
   circle(200, 200, 50)
   fill("Pink")
