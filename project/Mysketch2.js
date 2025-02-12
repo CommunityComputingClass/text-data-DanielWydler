@@ -12,8 +12,14 @@ function draw() {
   fill (50)
   text ("i love you pooki bear", 100, 100, 100)
 }
-
 function keyPressed(){
+  heart(random (0,450),random(0,450),) 
+}
+function heart(x,y) {
   fill("pink")
-  ellipse(random (0,450),random(0,450),random (10,100))  
+  circle(x, y, 50)
+  fill("Pink")
+  circle(x-50, y, 50)
+  fill("pink")
+  triangle(x-73, y+6, x+21, y+3, x-24, y+77)
 }
